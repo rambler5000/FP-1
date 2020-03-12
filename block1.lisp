@@ -14,7 +14,7 @@
 (defun del-elem(lst)
       (cond
          ((null lst)  nil)
-          (t(cdr (cons () (cdr lst))))
+          (t(cdr lst))
        )
 )
 (print(del-elem '(2 8 5 3)))
